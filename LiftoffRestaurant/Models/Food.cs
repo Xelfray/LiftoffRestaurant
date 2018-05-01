@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 
 namespace LiftoffRestaurant.Models
 {
-    public class FoodCategory
+    public class Food
     {
         public int ID { get; set; }
         public string Name { get; set; }
-
-        public IList<Food>  Foods { get; set; }
+        public string Description { get; set; }
+        public int Price { get; set; }
     }
 }
